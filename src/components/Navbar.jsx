@@ -20,8 +20,3 @@ const Navbar = ({ money }) => (
 );
 
 export default Navbar;
-
-// https://i.ibb.co.com/r5tNtHW/banner-main.png
-// https://i.ibb.co.com/7g0kZPY/bg-shadow.png
-// https://i.ibb.co.com/cb9qHNt/logo.png
-// https://i.ibb.co.com/tzR6tR0/logo-footer.png

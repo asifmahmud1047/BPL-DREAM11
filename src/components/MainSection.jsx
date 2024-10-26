@@ -1,4 +1,3 @@
-// MainSection.jsx
 import React, { useState, useEffect } from "react";
 import PlayerCard from "./PlayerCard";
 import SelectedPlayers from "./SelectedPlayers";

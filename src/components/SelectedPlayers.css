@@ -66,10 +66,12 @@
 /* SelectedPlayers.css */
 
 .add-more-btn {
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #ffcc00;
-  color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  background-color: green;
+  color: white;
   font-weight: bold;
   border: none;
   border-radius: 5px;

@@ -1,6 +1,5 @@
-// SelectedPlayers.jsx
 import React from "react";
-import "./SelectedPlayers.css"; // Import a CSS file for styling
+import "./SelectedPlayers.css";
 import { toast } from "react-toastify";
 
 const SelectedPlayers = ({ players, onRemove, onAddMore }) => {
@@ -23,7 +22,6 @@ const SelectedPlayers = ({ players, onRemove, onAddMore }) => {
         ))
       )}
 
-      {/* Add More Player Button */}
       <button className="add-more-btn" onClick={onAddMore}>
         Add More Player
       </button>

@@ -1,4 +1,3 @@
-// App.jsx
 import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import Navbar from "./components/Navbar";
@@ -11,7 +10,7 @@ import Footer from "./components/Footer";
 function App() {
   const [money, setMoney] = useState(0);
 
-  const increaseMoney = () => setMoney(money + 500000); // Adjust as needed
+  const increaseMoney = () => setMoney(money + 5000000);
   const updateMoney = (amount) => setMoney(money + amount);
 
   return (

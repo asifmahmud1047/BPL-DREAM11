@@ -12,7 +12,7 @@
 }
 
 .player-card:hover {
-  transform: scale(1.05); /* Adds a slight zoom effect on hover */
+  transform: scale(1.05);
 }
 
 .player-image {
@@ -60,5 +60,5 @@
 }
 
 .choose-button:hover {
-  background-color: #218838; /* Darkens the button on hover */
+  background-color: #218838;
 }
