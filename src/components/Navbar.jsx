@@ -13,7 +13,7 @@ const Navbar = ({ money }) => (
       <a href="#">Schedules</a>
     </div>
     <div className="money">
-      <img src="../public/assets/coin.png" alt="" />
+      <img src="https://i.ibb.co.com/4MHyPRT/coin.png" alt="" />
       Coins: {money}
     </div>
   </nav>

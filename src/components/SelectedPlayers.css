@@ -62,3 +62,21 @@
 .selected-player-card button:hover {
   background-color: #cc0000;
 }
+
+/* SelectedPlayers.css */
+
+.add-more-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  color: #1f1f1f;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-more-btn:hover {
+  background-color: #e6b800;
+}

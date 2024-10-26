@@ -3,7 +3,7 @@ import React from "react";
 import "./SelectedPlayers.css"; // Import a CSS file for styling
 import { toast } from "react-toastify";
 
-const SelectedPlayers = ({ players, onRemove }) => {
+const SelectedPlayers = ({ players, onRemove, onAddMore }) => {
   return (
     <div className="selected-players">
       <h2 className="font:bold">Selected Players ({players.length}/6)</h2>
@@ -22,6 +22,11 @@ const SelectedPlayers = ({ players, onRemove }) => {
           </div>
         ))
       )}
+
+      {/* Add More Player Button */}
+      <button className="add-more-btn" onClick={onAddMore}>
+        Add More Player
+      </button>
     </div>
   );
 

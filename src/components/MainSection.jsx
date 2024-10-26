@@ -59,6 +59,7 @@ const MainSection = ({ money, updateMoney }) => {
           Selected ({selectedPlayers.length})
         </button>
       </div>
+
       {!showSelected ? (
         <div className="available-players">
           {players.map((player) => (
