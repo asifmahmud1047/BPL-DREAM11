@@ -1,0 +1,53 @@
+.newsletter {
+  padding: 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 40px 20px;
+  background: url("https://i.ibb.co.com/7g0kZPY/bg-shadow.png") no-repeat center
+    center;
+  background-size: cover;
+}
+
+.newsletter h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.newsletter p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.input-container input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.input-container button:hover {
+  background-color: #0056b3;
+}
