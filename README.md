@@ -3,7 +3,7 @@
 A React-based web application that allows users to select cricket players within a given coin limit, following the Figma design. The system ensures a seamless experience with toggling between available and selected players, validation checks, and interactive UI elements.
 
 ## 🚀 Live Demo
-[BPL-DREAM11] (https://bpl-dream11-2024.netlify.app/)
+[BPL-DREAM11](https://bpl-dream11-2024.netlify.app/)
 
 ## 🛠 Technologies Used
 - React.js
